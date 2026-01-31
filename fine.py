@@ -114,8 +114,7 @@ def finetune(model, data, epochs):
             t = Tensor([[y]])
 
             out = model(x)
-            loss = (out - t).pow(2).mean()
-
+            loss = -(t * out.log() + (1 - t) * (1 - out).log()).mean()
             opt.zero_grad()
             loss.backward()
             opt.step()
@@ -170,7 +169,7 @@ if __name__ == "__main__":
     print("images:", len(data))
 
     model = loadmodel()
-    model = finetune(model, data, 6)
+    model = finetune(model, data, 4)
 
     running = False
 
