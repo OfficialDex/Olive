@@ -2,7 +2,7 @@
 Olive is an open sourced, extremely lightweight, CNN based image detection neural network AI model which identifies if the image is a cat or a dog.
 
 # Example
-![ran predict.py](.png)
+![ran predict.py](IMG_20260131_170048.jpg)
 - it got 9/10 images correctly
 
 
