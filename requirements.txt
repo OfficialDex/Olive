@@ -1,0 +1,5 @@
+tinygrad
+numpy
+pillow
+matplotlib
+psutil
