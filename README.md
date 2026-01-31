@@ -22,4 +22,4 @@ Olive is an open sourced, extremely lightweight, CNN based image detection neura
 # feel free to modify or use this project (or curse me for writing code with almost no debugging)
 
 # Fun Fact
-This entire project was made with $0 budget by solo dev (me, blaze) using a smartphone on weekend just because I had nothing to do
+This entire project (including dataset) was made with $0 budget by solo dev (me, blaze) using a smartphone on weekend just because I had nothing to do
